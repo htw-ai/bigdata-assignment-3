@@ -54,7 +54,9 @@ class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFi
     * Ergebnis in corpusRDD
     */
   def createCorpus = {
-    corpusRDD = getTokens((amazonRDD union googleRDD).reduceByKey(_ ++ _))
+    amazonTokens = getTokens(amazonRDD)
+    googleTokens = getTokens(googleRDD)
+    corpusRDD = (amazonTokens union googleTokens).reduceByKey(_ ++ _)
   }
 
   /**
@@ -66,7 +68,7 @@ class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFi
     var dict = Map.empty[String, Int]
 
     corpusRDD.map(_._2.toSet).toLocalIterator.toList.foreach(s => {
-      s.foreach(t => dict = dict + (t -> (dict.getOrElse[Int](t, 0) + 1)) )
+      s.foreach(t => dict = dict + (t -> (dict.getOrElse[Int](t, 0) + 1)))
     })
     idfDict = dict.map(x => (x._1, count / x._2))
 
@@ -114,47 +116,38 @@ class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFi
 
 
   /**
-   * Berechnen Sie die folgenden Kennzahlen:
-   *
-   * Anzahl der Duplikate im Sample
-   * Durchschnittliche Consinus Similaritaet der Duplikate
-   * Durchschnittliche Consinus Similaritaet der Nicht-Duplikate
-   *
-   *
-   * Ergebnis-Tripel:
-   * (AnzDuplikate, avgCosinus-SimilaritätDuplikate,avgCosinus-SimilaritätNicht-Duplikate)
-   */
+    * Berechnen Sie die folgenden Kennzahlen:
+    *
+    * Anzahl der Duplikate im Sample
+    * Durchschnittliche Consinus Similaritaet der Duplikate
+    * Durchschnittliche Consinus Similaritaet der Nicht-Duplikate
+    *
+    *
+    * Ergebnis-Tripel:
+    * (AnzDuplikate, avgCosinus-SimilaritätDuplikate,avgCosinus-SimilaritätNicht-Duplikate)
+    */
   def evaluateModel(goldStandard: RDD[(String, String)]): (Long, Double, Double) = {
-    //createCorpus
-    //calculateIDF
 
-    //val localRddMap = corpusRDD.toLocalIterator.toMap
-    val localAmazonMap = amazonRDD.toLocalIterator.toMap
-    val localGoogleMap = googleRDD.toLocalIterator.toMap
+    val myGoldStandard = goldStandard.map(x => {
+      val keys = x._1.split(" ")
+      (keys(0), keys(1))
+    }).collect().toList
 
     val sw = stopWords
     val idf = idfDict
 
-    val d = goldStandard.map(x =>
-      (x._1, x._2, EntityResolution.calculateDocumentSimilarity(localAmazonMap.apply(x._1), localGoogleMap.apply(x._2), idf, sw)))
+    val p = amazonRDD.cartesian(googleRDD).map(x => EntityResolution.computeSimilarity((x._1, x._2), idf, sw) )
 
-    val duplicates = d.filter(_._3 < 0.8) // ???
-    val noDuplicates = d.filter(_._3 >= 0.8) // ???
+    val dups = p.filter(x => myGoldStandard.contains((x._1, x._2)))
+    val noDups = p.filter(x => !myGoldStandard.contains((x._1, x._2)))
 
-    // val recb000hkgj8k = amazonRecToToken.filter(_._1 == "b000hkgj8k").collect()(0)._2
+    val sumDups = dups.map(_._3).sum()
+    val sumNoDups = noDups.map(_._3).sum()
 
-    val avgCosDuplicates = duplicates.map(x =>{
-
-      val dup1 = localAmazonMap.apply(x._1)
-      val dup2 = localGoogleMap.apply(x._2)
-
-      EntityResolution.calculateDocumentSimilarity(dup1, dup2, idf, sw)
-    })
-
-
-    (duplicates.count, 0, 0)
+    (dups.count, sumDups / dups.count.toDouble, sumNoDups / noDups.count.toDouble)
   }
 }
+
 
 object EntityResolution {
 

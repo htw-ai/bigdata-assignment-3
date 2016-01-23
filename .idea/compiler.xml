@@ -11,7 +11,6 @@
       <entry name="!?*.flex" />
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
@@ -19,7 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="beleg3_aufgabe" target="1.8" />
+      <module name="bigdata-assignment-3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

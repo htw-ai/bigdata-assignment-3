@@ -26,9 +26,10 @@ class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFi
     * und aus allen Produktdaten eines RDDs die Tokens extrahieren.
     */
   def getTokens(data: RDD[(String, String)]): RDD[(String, List[String])] = {
-    val stopWords: Set[String] = Utils.getStopWords(stopwordsFile)
+    val sw = stopWords
+    //   val stopWords: Set[String] = Utils.getStopWords(stopwordsFile)
     data.map(x => {
-      (x._1, EntityResolution.tokenize(x._2, stopWords))
+      (x._1, EntityResolution.tokenize(x._2, sw))
     })
   }
 
@@ -48,42 +49,62 @@ class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFi
   }
 
   /**
-   * Erstellt die Tokenmenge für die Amazon und die Google-Produkte
-   * (amazonRDD und googleRDD) und vereinigt diese und speichert das
-   * Ergebnis in corpusRDD
-   */
+    * Erstellt die Tokenmenge für die Amazon und die Google-Produkte
+    * (amazonRDD und googleRDD) und vereinigt diese und speichert das
+    * Ergebnis in corpusRDD
+    */
   def createCorpus = {
     corpusRDD = getTokens((amazonRDD union googleRDD).reduceByKey(_ ++ _))
   }
 
   /**
-   * Berechnung des IDF-Dictionaries auf Basis des erzeugten Korpus
-   * Speichern des Dictionaries in die Variable idfDict
-   */
-  def calculateIDF = {
-//  var corpusRDD: RDD[(String, List[String])]
-//  var idfDict: Map[String, Double]
-    val count = corpusRDD.count()
+    * Berechnung des IDF-Dictionaries auf Basis des erzeugten Korpus
+    * Speichern des Dictionaries in die Variable idfDict
+    */
+  def calculateIDF2 = {
+    val count = corpusRDD.count().asInstanceOf[Double]
+    val dict = Map.empty[String, Int]
 
     corpusRDD.foreach((doc) => {
       doc._2.distinct.foreach(t =>
-        idfDict + (t -> (if (idfDict.contains(t)) idfDict.apply(t) else 1))
+        dict.updated(t, if (dict.contains(t)) dict.apply(t) else 1)
+//        dict + (t -> (if (dict.contains(t)) dict.apply(t) else 1))
       )
     })
+    dict.foreach(x => idfDict ++ x._1 -> count / x._2.asInstanceOf[Double])
 
-    idfDict.foreach(x => idfDict ++ x._1 -> x._2 / count.asInstanceOf[Double])
-
+    idfBroadcast = sc.broadcast(idfDict)
   }
 
+  def calculateIDF = {
+    val documentCount = corpusRDD.count().asInstanceOf[Double]
+    val uniqueWordsPerDocument = corpusRDD.map(_._2.toSet).toLocalIterator.toList
 
+    //     BAD
+    //    var map: Map[String, Long] = Map.empty
+    //    uniqueWordsPerDocument.foreach(x => x.foreach(word => map = map.updated(word, 1 + map.getOrElse[Long](word, 0))))
+    //    idfDict = map.map(x => (x._1, x._2 / documentCount.asInstanceOf[Double]))
+
+    //     BETTER
+    idfDict = uniqueWordsPerDocument
+      .foldLeft(Map.empty[String, Long]) {
+        (map, set) =>
+          set.foldLeft(map) {
+            (map2, word) => map2.updated(word, 1 + map2.getOrElse[Long](word, 0))
+          }
+      }
+      .map(x => (x._1, x._2 / documentCount))
+
+    idfBroadcast = sc.broadcast(idfDict)
+  }
+
+  /**
+    * Berechnung der Document-Similarity für alle möglichen
+    * Produktkombinationen aus dem amazonRDD und dem googleRDD
+    * Ergebnis ist ein RDD aus Tripeln bei dem an erster Stelle die AmazonID
+    * steht, an zweiter die GoogleID und an dritter der Wert
+    */
   def simpleSimimilarityCalculation: RDD[(String, String, Double)] = {
-
-    /*
-     * Berechnung der Document-Similarity für alle möglichen 
-     * Produktkombinationen aus dem amazonRDD und dem googleRDD
-     * Ergebnis ist ein RDD aus Tripeln bei dem an erster Stelle die AmazonID
-     * steht, an zweiter die GoogleID und an dritter der Wert
-     */
     ???
   }
 
@@ -165,29 +186,26 @@ object EntityResolution {
     ???
   }
 
+  /**
+    * Berechnung des Dot-Products von zwei Vectoren
+    */
   def calculateDotProduct(v1: Map[String, Double], v2: Map[String, Double]): Double = {
-
-    /*
-     * Berechnung des Dot-Products von zwei Vectoren
-     */
-    ???
+    v1.map(x => x._2 * v2.getOrElse[Double](x._1, 0))
+      .sum
   }
 
+  /**
+    * Berechnung der Norm eines Vectors
+    */
   def calculateNorm(vec: Map[String, Double]): Double = {
-
-    /*
-     * Berechnung der Norm eines Vectors
-     */
     Math.sqrt(((for (el <- vec.values) yield el * el).sum))
   }
 
+  /**
+    * Berechnung der Cosinus-Similarity für zwei Vectoren
+    */
   def calculateCosinusSimilarity(doc1: Map[String, Double], doc2: Map[String, Double]): Double = {
-
-    /* 
-     * Berechnung der Cosinus-Similarity für zwei Vectoren
-     */
-
-    ???
+    calculateDotProduct(doc1, doc2) / (calculateNorm(doc1) * calculateNorm(doc2 ))
   }
 
   def calculateDocumentSimilarity(doc1: String, doc2: String, idfDictionary: Map[String, Double], stopWords: Set[String]): Double = {

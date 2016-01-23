@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ed52636-8b14-40ca-8963-cf2eb59b761d" name="Default" comment="" />
+    <list default="true" id="ad5adcbf-5001-47c1-b23c-c62ac152532d" name="Default" comment="" />
     <ignored path="Beleg3_SimilarityAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,102 +25,36 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="SBT">
-      <state>
-        <projects_view>
-          <tree_state>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="beleg3_aufgabe-build" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Dependencies" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </PATH_ELEMENT>
-            </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="beleg3_aufgabe" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
-            </PATH>
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Beleg3_SimilarityAnalysis" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EntityResolution.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
+    <leaf>
+      <file leaf-file-name="EntityResolutionTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2592179">
-              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding>
-                <element signature="e#870#1020#0" expanded="false" />
-                <element signature="e#870#1253#0" expanded="false" />
-                <element signature="e#1178#1249#0" expanded="false" />
-                <element signature="e#1257#1365#0" expanded="false" />
-                <element signature="e#1257#1474#0" expanded="false" />
-                <element signature="e#1478#1538#0" expanded="false" />
-                <element signature="e#1478#1721#0" expanded="false" />
-                <element signature="e#1725#1898#0" expanded="false" />
-                <element signature="e#1725#2000#0" expanded="false" />
-                <element signature="e#2004#2137#0" expanded="false" />
-                <element signature="e#2161#2207#0" expanded="false" />
-                <element signature="e#2602#2878#0" expanded="false" />
-                <element signature="e#3004#3082#0" expanded="false" />
-                <element signature="e#3196#3240#0" expanded="false" />
-                <element signature="e#3332#3696#0" expanded="false" />
-                <element signature="e#3743#3928#0" expanded="false" />
-                <element signature="e#3743#4085#0" expanded="false" />
-                <element signature="e#4089#4216#0" expanded="false" />
-                <element signature="e#4089#4478#0" expanded="false" />
-                <element signature="e#4394#4474#0" expanded="false" />
-                <element signature="e#4395#4473#0" expanded="false" />
-                <element signature="e#4482#4865#0" expanded="false" />
-                <element signature="e#4644#4853#0" expanded="false" />
-                <element signature="e#5149#5315#0" expanded="false" />
-                <element signature="e#5240#5303#0" expanded="false" />
-                <element signature="e#5319#5495#0" expanded="false" />
-                <element signature="e#5380#5431#0" expanded="false" />
-                <element signature="e#5499#5684#0" expanded="false" />
-                <element signature="e#5601#5671#0" expanded="false" />
-                <element signature="e#5688#5906#0" expanded="false" />
-                <element signature="e#5825#5894#0" expanded="false" />
-                <element signature="e#5910#6362#0" expanded="false" />
-                <element signature="e#6096#6350#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="143" column="46" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityResolutionTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
+      <file leaf-file-name="EntityResolution.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.62069">
-              <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.51079136">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScalableEntityResolutionTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -136,22 +70,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,9 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +124,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemId" value="bigdata-assignment-3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,29 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_Aufgabe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala-2.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemId" value="bigdata-assignment-3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -253,7 +160,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemId" value="bigdata-assignment-3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -264,10 +171,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -275,7 +178,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemId" value="bigdata-assignment-3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -301,7 +204,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemId" value="bigdata-assignment-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textanalyse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityResolution.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigdata-assignment-3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -323,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemId" value="bigdata-assignment-3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -337,22 +270,34 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="D:/Workdir/osrest_700" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.28902316" />
-    <property name="FullScreen" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Programme\nodejs\node.exe" />
   </component>
   <component name="RunManager" selected="ScalaTest.EntityResolutionTest">
     <configuration default="false" name="EntityResolutionTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="beleg3_aufgabe" />
+      <module name="bigdata-assignment-3" />
       <setting name="path" value="test.EntityResolutionTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
@@ -431,9 +376,10 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$IDEA_HOME$/bin/appletviewer.policy" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
     </configuration>
@@ -452,6 +398,133 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -466,6 +539,16 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -531,6 +614,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -540,7 +626,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="beleg3_aufgabe" />
+      <module name="bigdata-assignment-3" />
       <envs />
       <method />
     </configuration>
@@ -582,6 +668,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -595,7 +687,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -638,6 +730,21 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -663,7 +770,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1453375538465" />
+    <option name="lastUpdateTimestamp" value="1453552812730" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -676,11 +783,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="beleg3_aufgabe" />
+                <option name="name" value="bigdata-assignment-3" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="beleg3_aufgabe-build" />
+                <option name="name" value="bigdata-assignment-3-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -690,7 +797,14 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../Big Data/Beleg2_Aufgabe" value="1448917448000" />
+        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/3. Woche/Uebung3Aufgabe" value="1445425885676" />
+        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/5. Woche/Uebung5Aufgabe" value="1443443926000" />
+        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/8. woche/Aufgabe8_RelAlgebra" value="1448700352000" />
+        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/Beleg1/Beleg1" value="1447230129399" />
+        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/Beleg2/Beleg2_Aufgabe" value="1448917448000" />
+        <entry key="$PROJECT_DIR$/../Beleg2/Beleg2_Aufgabe" value="1448917448000" />
+        <entry key="$PROJECT_DIR$/../Uebung3Aufgabe" value="1445430068270" />
+        <entry key="$PROJECT_DIR$/../../WT/Uebung1_sbt" value="1444214502914" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -698,101 +812,110 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ed52636-8b14-40ca-8963-cf2eb59b761d" name="Default" comment="" />
-      <created>1452963372617</created>
+      <changelist id="ad5adcbf-5001-47c1-b23c-c62ac152532d" name="Default" comment="" />
+      <created>1453552160473</created>
       <option name="number" value="Default" />
-      <updated>1452963372617</updated>
-      <workItem from="1452963390611" duration="7633000" />
-      <workItem from="1453044363773" duration="263000" />
-      <workItem from="1453047978331" duration="2114000" />
-      <workItem from="1453050811373" duration="460000" />
-      <workItem from="1453051364567" duration="6710000" />
-      <workItem from="1453067238580" duration="1149000" />
-      <workItem from="1453068449421" duration="675000" />
+      <updated>1453552160473</updated>
+      <workItem from="1453552362440" duration="3128000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EntityResolutionTest - 2016.01.19 at 21h 39m 44s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 13h 43m 12s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.19 at 21h 45m 49s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 13h 46m 06s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.19 at 22h 00m 53s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 13h 51m 42s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.19 at 22h 00m 57s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 13h 52m 57s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.19 at 22h 19m 40s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 13h 54m 28s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.21 at 12h 46m 17s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 14h 07m 15s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.21 at 12h 47m 46s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 14h 16m 01s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.21 at 12h 52m 40s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 14h 18m 45s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.21 at 12h 53m 46s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 14h 20m 08s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EntityResolutionTest - 2016.01.21 at 12h 55m 02s.xml">
+    <history-entry file="EntityResolutionTest - 2016.01.23 at 14h 23m 55s.xml">
       <configuration name="EntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19004000" />
+    <option name="totallyTimeSpent" value="3128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066089" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47995666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4010767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21336761" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
+    <layout-to-restore>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52567565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51856947" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -802,25 +925,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala</url>
-          <line>73</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala</url>
-          <line>68</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="39" />
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="40" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -829,891 +939,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/main/SimilarityApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="45" selection-start-line="143" selection-start-column="45" selection-end-line="143" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/common/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20101352">
+        <state vertical-scroll-proportion="0.17296511">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/VectorAccumulatorParam.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2989011">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.10/bundles/scalatest_2.10-2.2.4.jar!/org/scalatest/OutcomeOf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17677642">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5057851">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028099174">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.5-sources.jar!/scala/Tuple2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7468085">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/main/SimilarityApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03761062">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.62069">
-          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="46" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2592179">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <element signature="e#870#1020#0" expanded="false" />
-            <element signature="e#870#1253#0" expanded="false" />
-            <element signature="e#1178#1249#0" expanded="false" />
-            <element signature="e#1257#1365#0" expanded="false" />
-            <element signature="e#1257#1474#0" expanded="false" />
-            <element signature="e#1478#1538#0" expanded="false" />
-            <element signature="e#1478#1721#0" expanded="false" />
-            <element signature="e#1725#1898#0" expanded="false" />
-            <element signature="e#1725#2000#0" expanded="false" />
-            <element signature="e#2004#2137#0" expanded="false" />
-            <element signature="e#2161#2207#0" expanded="false" />
-            <element signature="e#2602#2878#0" expanded="false" />
-            <element signature="e#3004#3082#0" expanded="false" />
-            <element signature="e#3196#3240#0" expanded="false" />
-            <element signature="e#3332#3696#0" expanded="false" />
-            <element signature="e#3743#3928#0" expanded="false" />
-            <element signature="e#3743#4085#0" expanded="false" />
-            <element signature="e#4089#4216#0" expanded="false" />
-            <element signature="e#4089#4478#0" expanded="false" />
-            <element signature="e#4394#4474#0" expanded="false" />
-            <element signature="e#4395#4473#0" expanded="false" />
-            <element signature="e#4482#4865#0" expanded="false" />
-            <element signature="e#4644#4853#0" expanded="false" />
-            <element signature="e#5149#5315#0" expanded="false" />
-            <element signature="e#5240#5303#0" expanded="false" />
-            <element signature="e#5319#5495#0" expanded="false" />
-            <element signature="e#5380#5431#0" expanded="false" />
-            <element signature="e#5499#5684#0" expanded="false" />
-            <element signature="e#5601#5671#0" expanded="false" />
-            <element signature="e#5688#5906#0" expanded="false" />
-            <element signature="e#5825#5894#0" expanded="false" />
-            <element signature="e#5910#6362#0" expanded="false" />
-            <element signature="e#6096#6350#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.51079136">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28902316" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28902316" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.10.51</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28902316" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28902316" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>beleg3_aufgabe</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28902316" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28902316" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>SBT: aopalliance:aopalliance:1.0:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28902316" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

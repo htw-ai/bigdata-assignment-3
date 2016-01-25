@@ -1,24 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad5adcbf-5001-47c1-b23c-c62ac152532d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$$anonfun$calculateNorm$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$$anonfun$calculateNorm$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$$anonfun$getTermFrequencies$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$$anonfun$getTermFrequencies$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$$anonfun$tokenize$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$$anonfun$tokenize$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/EntityResolution.class" />
+    <list default="true" id="da366ef7-b38e-480c-9963-e454ee4108de" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$10.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$11.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$8.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$9.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$analyseDataset$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$calculateFpCounts$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$calculateFpCounts$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$calculateFpCounts$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$calculateFpCounts$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$falseneg$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$falseneg$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$falsepos$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$falsepos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$falsepos$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$falsepos$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$invert$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$invert$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$set_bit$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$$anonfun$set_bit$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/textanalyse/ScalableEntityResolution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala" afterPath="$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/beleg3_aufgabe-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/beleg3_aufgabe-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/beleg3_aufgabe-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/beleg3_aufgabe-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-beleg3_aufgabe-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/textanalyse/ScalableEntityResolution.scala" afterPath="$PROJECT_DIR$/src/main/scala/textanalyse/ScalableEntityResolution.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis$sources_2.10/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis$sources_2.10/0.1/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis$sources_2.10/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis$sources_2.10/0.1/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis_2.10/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis_2.10/0.1/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis_2.10/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/beleg3_similarityanalysis/beleg3_similarityanalysis_2.10/0.1/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis$sources_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/beleg3_similarityanalysis-beleg3_similarityanalysis_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="Beleg3_SimilarityAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,45 +128,16 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="SBT">
-      <state>
-        <projects_view>
-          <tree_state />
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Beleg3_SimilarityAnalysis" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Amazon_Google_perfectMapping.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/Amazon_Google_perfectMapping.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="651" column="11" selection-start-line="651" selection-start-column="1" selection-end-line="651" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityResolution.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3103447">
-              <caret line="65" column="18" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ScalableEntityResolutionTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="69" selection-end-column="68" />
+              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -84,17 +147,39 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/ScalableEntityResolution.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33333334">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-              <folding />
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+              <folding>
+                <element signature="e#1917#1928#0" expanded="false" />
+                <element signature="e#7548#7587#0" expanded="false" />
+                <element signature="e#7664#7703#0" expanded="false" />
+                <element signature="e#7785#7824#0" expanded="false" />
+                <element signature="e#8620#8704#0" expanded="false" />
+                <element signature="e#8620#8913#0" expanded="false" />
+                <element signature="e#8917#9012#0" expanded="false" />
+                <element signature="e#9016#9114#0" expanded="false" />
+                <element signature="e#9118#9332#0" expanded="false" />
+                <element signature="e#9337#9470#0" expanded="false" />
+                <element signature="e#9474#9604#0" expanded="false" />
+                <element signature="e#9608#9742#0" expanded="false" />
+                <element signature="e#9783#9935#0" expanded="false" />
+                <element signature="e#10139#10185#0" expanded="false" />
+                <element signature="e#10139#10353#0" expanded="false" />
+                <element signature="e#10435#10532#0" expanded="false" />
+                <element signature="e#11651#11800#0" expanded="false" />
+                <element signature="e#11804#11950#0" expanded="false" />
+                <element signature="e#11895#11946#0" expanded="false" />
+                <element signature="e#12043#12224#0" expanded="false" />
+                <element signature="e#12228#12410#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityResolutionTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
+      <file leaf-file-name="EntityResolution.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="152" column="82" selection-start-line="152" selection-start-column="70" selection-end-line="152" selection-end-column="82" />
+              <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -113,22 +198,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/textanalyse/ScalableEntityResolution.scala" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -155,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata-assignment-3" />
+              <option name="myItemId" value="Beleg3_Aufgabe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,7 +258,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata-assignment-3" />
+              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-2.11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_Aufgabe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -206,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata-assignment-3" />
+              <option name="myItemId" value="Beleg3_Aufgabe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -224,58 +324,137 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bigdata-assignment-3" />
+              <option name="myItemId" value="Beleg3_Aufgabe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textanalyse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textanalyse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalableEntityResolution.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textanalyse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntityResolution.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_SimilarityAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beleg3_Aufgabe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.annotationProcessors" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="D:/Workdir/osrest_700" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
-    <property name="JavaScriptLanguageLevel" value="ES6" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="D:\Programme\nodejs\node.exe" />
-  </component>
   <component name="RunManager" selected="ScalaTest.ScalableEntityResolutionTest">
-    <configuration default="false" name="EntityResolutionTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="bigdata-assignment-3" />
-      <setting name="path" value="test.EntityResolutionTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="ScalableEntityResolutionTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="bigdata-assignment-3" />
+      <module name="beleg3_aufgabe" />
       <setting name="path" value="test.ScalableEntityResolutionTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
@@ -284,36 +463,6 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="EntityResolutionTest.Evaluate Model" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="bigdata-assignment-3" />
-      <setting name="path" value="test.EntityResolutionTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Evaluate Model" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ScalaTests in 'scala'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="bigdata-assignment-3" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="All in package" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
@@ -406,133 +555,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -547,16 +569,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -622,9 +634,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -634,7 +643,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="bigdata-assignment-3" />
+      <module name="beleg3_aufgabe" />
       <envs />
       <method />
     </configuration>
@@ -673,12 +682,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -738,26 +741,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -773,23 +756,17 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.EntityResolutionTest" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ScalableEntityResolutionTest" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.EntityResolutionTest.Evaluate Model" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'scala'" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ScalableEntityResolutionTest" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="ScalaTest.ScalableEntityResolutionTest" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'scala'" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.EntityResolutionTest" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.EntityResolutionTest.Evaluate Model" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1453552812730" />
+    <option name="lastUpdateTimestamp" value="1453658663522" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -802,11 +779,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="bigdata-assignment-3" />
+                <option name="name" value="beleg3_aufgabe" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="bigdata-assignment-3-build" />
+                <option name="name" value="beleg3_aufgabe-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -816,14 +793,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/3. Woche/Uebung3Aufgabe" value="1445425885676" />
-        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/5. Woche/Uebung5Aufgabe" value="1443443926000" />
-        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/8. woche/Aufgabe8_RelAlgebra" value="1448700352000" />
-        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/Beleg1/Beleg1" value="1447230129399" />
-        <entry key="$USER_HOME$/OneDrive/Documents/HTW/4. Semester/Big Data/Beleg2/Beleg2_Aufgabe" value="1448917448000" />
-        <entry key="$PROJECT_DIR$/../Beleg2/Beleg2_Aufgabe" value="1448917448000" />
-        <entry key="$PROJECT_DIR$/../Uebung3Aufgabe" value="1445430068270" />
-        <entry key="$PROJECT_DIR$/../../WT/Uebung1_sbt" value="1444214502914" />
+        <entry key="$PROJECT_DIR$/../../Big Data/Beleg2_Aufgabe" value="1448917448000" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -831,123 +801,79 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" myUseAcceleration="nothing">
-    <configuration>C:\Users\cschulze\AppData\Roaming\Subversion</configuration>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad5adcbf-5001-47c1-b23c-c62ac152532d" name="Default" comment="" />
-      <created>1453552160473</created>
+      <changelist id="da366ef7-b38e-480c-9963-e454ee4108de" name="Default" comment="" />
+      <created>1453658608769</created>
       <option name="number" value="Default" />
-      <updated>1453552160473</updated>
-      <workItem from="1453552362440" duration="15784000" />
-      <workItem from="1453568801641" duration="4819000" />
+      <updated>1453658608769</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EntityResolutionTest_Evaluate_Model - 2016.01.23 at 17h 46m 40s.xml">
-      <configuration name="EntityResolutionTest.Evaluate Model" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="EntityResolutionTest_Evaluate_Model - 2016.01.23 at 17h 58m 30s.xml">
-      <configuration name="EntityResolutionTest.Evaluate Model" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="EntityResolutionTest_Evaluate_Model - 2016.01.23 at 17h 59m 02s.xml">
-      <configuration name="EntityResolutionTest.Evaluate Model" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="EntityResolutionTest_Evaluate_Model - 2016.01.23 at 18h 00m 29s.xml">
-      <configuration name="EntityResolutionTest.Evaluate Model" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in__scala_ - 2016.01.23 at 18h 22m 45s.xml">
-      <configuration name="ScalaTests in 'scala'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in__scala_ - 2016.01.23 at 18h 24m 02s.xml">
-      <configuration name="ScalaTests in 'scala'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalableEntityResolutionTest - 2016.01.23 at 18h 07m 49s.xml">
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 18h 55m 14s.xml">
       <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ScalableEntityResolutionTest - 2016.01.23 at 18h 12m 36s.xml">
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 19h 10m 19s.xml">
       <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ScalableEntityResolutionTest - 2016.01.23 at 18h 22m 47s.xml">
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 19h 23m 54s.xml">
       <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ScalableEntityResolutionTest - 2016.01.23 at 18h 36m 31s.xml">
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 20h 13m 57s.xml">
       <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20603000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 20h 24m 31s.xml">
+      <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 21h 06m 11s.xml">
+      <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 21h 24m 57s.xml">
+      <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 21h 52m 37s.xml">
+      <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 22h 53m 36s.xml">
+      <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalableEntityResolutionTest - 2016.01.25 at 23h 01m 02s.xml">
+      <configuration name="ScalableEntityResolutionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6716016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42972973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24162371" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15405117" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48320693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14175257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47644684" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42972973" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -965,7 +891,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="16" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -974,114 +900,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Amazon_Google_perfectMapping.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="651" column="11" selection-start-line="651" selection-start-column="1" selection-end-line="651" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/ScalableEntityResolution.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1917#1928#0" expanded="false" />
+            <element signature="e#7548#7587#0" expanded="false" />
+            <element signature="e#7664#7703#0" expanded="false" />
+            <element signature="e#7785#7824#0" expanded="false" />
+            <element signature="e#8620#8704#0" expanded="false" />
+            <element signature="e#8620#8913#0" expanded="false" />
+            <element signature="e#8917#9012#0" expanded="false" />
+            <element signature="e#9016#9114#0" expanded="false" />
+            <element signature="e#9118#9332#0" expanded="false" />
+            <element signature="e#9337#9470#0" expanded="false" />
+            <element signature="e#9474#9604#0" expanded="false" />
+            <element signature="e#9608#9742#0" expanded="false" />
+            <element signature="e#9783#9935#0" expanded="false" />
+            <element signature="e#10139#10185#0" expanded="false" />
+            <element signature="e#10139#10353#0" expanded="false" />
+            <element signature="e#10435#10532#0" expanded="false" />
+            <element signature="e#11651#11800#0" expanded="false" />
+            <element signature="e#11804#11950#0" expanded="false" />
+            <element signature="e#11895#11946#0" expanded="false" />
+            <element signature="e#12043#12224#0" expanded="false" />
+            <element signature="e#12228#12410#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="206" column="68" selection-start-line="206" selection-start-column="68" selection-end-line="206" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/common/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17296511">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-2.2.4-sources.jar!/org/scalatest/FunSuiteLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45833334">
-          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33178654">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Amazon_small.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3084577">
-          <caret line="4" column="778" selection-start-line="4" selection-start-column="778" selection-end-line="4" selection-end-column="778" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Amazon_small.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18159205">
-          <caret line="4" column="374" selection-start-line="4" selection-start-column="374" selection-end-line="4" selection-end-column="374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Amazon_Google_perfectMapping.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="651" column="11" selection-start-line="651" selection-start-column="1" selection-end-line="651" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Google_small.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47331786">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Amazon.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="803" column="96" selection-start-line="803" selection-start-column="96" selection-end-line="803" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Amazon_Google_perfectMapping.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="651" column="11" selection-start-line="651" selection-start-column="1" selection-end-line="651" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-2.2.4-sources.jar!/org/scalatest/BeforeAndAfterAll.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+        <state vertical-scroll-proportion="-0.37394246">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3103447">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1089,15 +949,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/test/ScalableEntityResolutionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="69" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="82" selection-start-line="152" selection-start-column="70" selection-end-line="152" selection-end-column="82" />
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1105,8 +957,30 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/ScalableEntityResolution.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="e#1917#1928#0" expanded="false" />
+            <element signature="e#7548#7587#0" expanded="false" />
+            <element signature="e#7664#7703#0" expanded="false" />
+            <element signature="e#7785#7824#0" expanded="false" />
+            <element signature="e#8620#8704#0" expanded="false" />
+            <element signature="e#8620#8913#0" expanded="false" />
+            <element signature="e#8917#9012#0" expanded="false" />
+            <element signature="e#9016#9114#0" expanded="false" />
+            <element signature="e#9118#9332#0" expanded="false" />
+            <element signature="e#9337#9470#0" expanded="false" />
+            <element signature="e#9474#9604#0" expanded="false" />
+            <element signature="e#9608#9742#0" expanded="false" />
+            <element signature="e#9783#9935#0" expanded="false" />
+            <element signature="e#10139#10185#0" expanded="false" />
+            <element signature="e#10139#10353#0" expanded="false" />
+            <element signature="e#10435#10532#0" expanded="false" />
+            <element signature="e#11651#11800#0" expanded="false" />
+            <element signature="e#11804#11950#0" expanded="false" />
+            <element signature="e#11895#11946#0" expanded="false" />
+            <element signature="e#12043#12224#0" expanded="false" />
+            <element signature="e#12228#12410#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

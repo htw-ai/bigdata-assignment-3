@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="bigdata-assignment-3">
+    <profile name="SBT 1" modules="beleg3_aufgabe">
       <parameters>
         <parameter value="-target:jvm-1.7" />
       </parameters>

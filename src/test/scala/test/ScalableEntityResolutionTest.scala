@@ -81,8 +81,8 @@ class ScalableEntityResolutionTest extends FunSuite with BeforeAndAfterAll{
   test("Test Similarity Calculation on full dataset"){
      
     entityResolutionScalable.calculateSimilaritiesFullDataset
-    val similarityTest = entityResolutionScalable.similaritiesFullRDD.filter(x=> ((x._1._1.equals( "b00005lzly")) && 
-          (x._1._2.equals( "http://www.google.com/base/feeds/snippets/13823221823254120257")))).collect()
+    val similarityTest = entityResolutionScalable.similaritiesFullRDD.filter(x=> x._1._1.equals("b00005lzly") &&
+      x._1._2.equals("http://www.google.com/base/feeds/snippets/13823221823254120257")).collect()
     assert(similarityTest.size=== 1)
     assert(Math.abs(similarityTest(0)._2 - 4.286548414e-06) < 0.000000000001)
     assert(entityResolutionScalable.similaritiesFullRDD.count=== 2441100, "incorrect similaritiesFullRDD.count()")

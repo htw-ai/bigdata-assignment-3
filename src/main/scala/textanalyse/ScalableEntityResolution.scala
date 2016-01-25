@@ -86,44 +86,51 @@ class ScalableEntityResolution(sc: SparkContext, dat1: String, dat2: String, sto
     */
   def determineCommonTokens: Unit = {
 
-    val res=ScalableEntityResolution.swap(("say",("hello","world")))
+//    val res=ScalableEntityResolution.swap(("say",("hello","world")))
+//
+//    val combinedInvPairsRDD = amazonInvPairsRDD.intersection(googleInvPairsRDD)
+//
+//    val googleInvIndex = googleInvPairsRDD
+//    val combinedRDD = amazonRDD.foreach(x =>
+//      x._2.distinct.foreach( t =>
+//          googleInvIndex.filter(y => y._1 == t)
+//            .collect
+//            .toList
+//      ))
+//
+//
+//    val test = amazonWeightsRDD.map(x =>  ScalableEntityResolution.swap(
+//        (x._1, amazonInvPairsRDD.filter(y => y._2 == x._1).collect()(0))
+//      ))
+//      .cache()
+    val a = amazonWeightsRDD.map(x => (x._1, x._2.keys.toList))
+    val g = googleWeightsRDD.map(x => (x._1, x._2.keys.toList))
 
-    val combinedInvPairsRDD = amazonInvPairsRDD.intersection(googleInvPairsRDD)
-
-    val googleInvIndex = googleInvPairsRDD
-    val combinedRDD = amazonRDD.foreach(x =>
-      x._2.distinct.foreach( t =>
-          googleInvIndex.filter(y => y._1 == t)
-            .collect
-            .toList
-      ))
-
-
-    val test = amazonWeightsRDD.map(x =>  ScalableEntityResolution.swap(
-        (x._1, amazonInvPairsRDD.filter(y => y._2 == x._1).collect()(0))
-      ))
-      .cache()
-
-//    commonTokens =
-
-    ???
+    commonTokens = a.cartesian(g).map(x => ((x._1._1, x._2._1), x._1._2.intersect(x._2._2).toIterable))
+                                 .filter(_._2.nonEmpty)
+                                 .cache()
   }
 
+  /*
+   * Berechnung der Similarity Werte des gesmamten Datasets
+   * Verwenden Sie dafür das commonTokensRDD (es muss also mind. ein
+   * gleiches Wort vorkommen, damit der Wert berechnent dafür.
+   * Benutzen Sie außerdem die Broadcast-Variablen für die L2-Norms sowie
+   * die TF-IDF-Werte.
+   *
+   * Für die Berechnung der Cosinus-Similarity verwenden Sie die Funktion
+   * fastCosinusSimilarity im object
+   * Speichern Sie das Ergebnis in der Variable simsFillValuesRDD und cachen sie diese.
+   */
   def calculateSimilaritiesFullDataset: Unit = {
+    val amaNormsBc = amazonNormsBroadcast
+    val gooNormsBC = googleNormsBroadcast
 
-    /*
-     * Berechnung der Similarity Werte des gesmamten Datasets 
-     * Verwenden Sie dafür das commonTokensRDD (es muss also mind. ein
-     * gleiches Wort vorkommen, damit der Wert berechnent dafür.
-     * Benutzen Sie außerdem die Broadcast-Variablen für die L2-Norms sowie
-     * die TF-IDF-Werte.
-     * 
-     * Für die Berechnung der Cosinus-Similarity verwenden Sie die Funktion
-     * fastCosinusSimilarity im object
-     * Speichern Sie das Ergebnis in der Variable simsFillValuesRDD und cachen sie diese.
-     */
+    val amaWeiBC = amazonWeightsBroadcast
+    val gooWeiBC = googleWeightsBroadcast
 
-    ???
+    similaritiesFullRDD = commonTokens.map(ScalableEntityResolution.fastCosinusSimilarity(_, amaWeiBC, gooWeiBC, amaNormsBc, gooNormsBC))
+    simsFullValuesRDD = similaritiesFullRDD.values.cache
   }
 
   /*
@@ -285,21 +292,22 @@ object ScalableEntityResolution {
     (el._2, el._1)
   }
 
+  /** Compute Cosine Similarity using Broadcast variables
+      Args:
+          record: ((ID, URL), token)
+      Returns:
+          pair: ((ID, URL), cosine similarity value)
+
+      Verwenden Sie die Broadcast-Variablen und verwenden Sie für ein schnelles dot-Product nur die TF-IDF-Werte,
+      die auch in der gemeinsamen Token-Liste sind
+  */
   def fastCosinusSimilarity(record: ((String, String), Iterable[String]),
                             amazonWeightsBroad: Broadcast[Map[String, Map[String, Double]]], googleWeightsBroad: Broadcast[Map[String, Map[String, Double]]],
                             amazonNormsBroad: Broadcast[Map[String, Double]], googleNormsBroad: Broadcast[Map[String, Double]]): ((String, String), Double) = {
+    val amazonTermScores = amazonWeightsBroad.value(record._1._1) //record._2.map(x => (x, amazonNormsBroad.value(x))).toMap
+    val googleTermScores = googleWeightsBroad.value(record._1._2) //record._2.map(x => (x, googleNormsBroad.value(x))).toMap
 
-    /* Compute Cosine Similarity using Broadcast variables
-    Args:
-        record: ((ID, URL), token)
-    Returns:
-        pair: ((ID, URL), cosine similarity value)
-        
-    Verwenden Sie die Broadcast-Variablen und verwenden Sie für ein schnelles dot-Product nur die TF-IDF-Werte,
-    die auch in der gemeinsamen Token-Liste sind 
-    */
-
-    ???
+    (record._1, EntityResolution.calculateCosinusSimilarity(amazonTermScores, googleTermScores))
   }
 
   def gs_value(record: (_, (_, Option[Double]))): Double = {
@@ -324,7 +332,6 @@ object ScalableEntityResolution {
     val b = bin(score, nthresholds)
     fpCounts += set_bit(b, 1, BINS)
   }
-
 
   def sub_element(score: Double, BINS: Int, nthresholds: Int, fpCounts: Accumulator[Vector[Int]]): Unit = {
     val b = bin(score, nthresholds)
